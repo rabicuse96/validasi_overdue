@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include validasi_overdue *.css
+recursive-include validasi_overdue *.csv
+recursive-include validasi_overdue *.html
+recursive-include validasi_overdue *.ico
+recursive-include validasi_overdue *.js
+recursive-include validasi_overdue *.json
+recursive-include validasi_overdue *.md
+recursive-include validasi_overdue *.png
+recursive-include validasi_overdue *.py
+recursive-include validasi_overdue *.svg
+recursive-include validasi_overdue *.txt
+recursive-exclude validasi_overdue *.pyc
